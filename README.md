@@ -2,16 +2,6 @@
 
 A powerful command-line tool for batch image processing with AI enhancement capabilities. This tool provides an intuitive, colorful interface for various image processing operations including AI-powered upscaling and enhancement.
 
-## Features ✨
-
-- **AI Image Enhancement**: 2x upscaling with detail preservation
-- **Batch Processing**: Process multiple images at once
-- **Format Conversion**: Convert between different image formats
-- **Image Resizing**: Resize images to specific dimensions
-- **Filter Application**: Apply various image filters
-- **File Organization**: Automatically organize images by format
-- **Colorful Interface**: User-friendly CLI with progress bars
-
 ## Installation 🚀
 
 1. Clone this repository or download the script:
@@ -105,13 +95,6 @@ exit
 > Enter images directory path: /path/to/images
 ```
 
-## Technical Details 🔧
-
-- AI Enhancement uses OpenCV's Super Resolution with EDSR model
-- Supports common image formats (JPG, PNG, BMP)
-- Progress tracking for batch operations
-- Error handling for invalid inputs and failed operations
-
 ## Requirements 📋
 
 - Python 3.6 or higher
@@ -123,19 +106,6 @@ exit
 ## Note 📝
 
 The AI enhancement model (EDSR_x2.pb) will be automatically downloaded on first use.
-
-## Error Handling ⚠️
-
-- Invalid commands display helpful error messages
-- Progress bars show operation status
-- Keyboard interrupts (Ctrl+C) are safely handled
-
-## Contributing 🤝
-
-Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
 
 ## License 📄
 
